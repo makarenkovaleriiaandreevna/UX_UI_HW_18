@@ -1,0 +1,74 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    padding: 16px;
+    text-align: center;
+
+}
+.logo {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    height: 300px;
+}
+.navigation {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(250, 250, 249);
+    align-items: center;
+    justify-content: space-around;
+    
+}
+li {
+    display: inline-block;
+}
+.heroImg {
+    height: 2000px;
+    padding: 25px;
+
+}
+.image1 {
+    width: 2000px;
+    vertical-align: right;
+
+} 
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+.footer1 {
+    background-color: #b9b9c5;
+    padding: 300px;
+    justify-content: end;
+    align-items: flex-end;
+    height:800 px;
+    vertical-align: bottom;
+
+}
+footer>ul>li {
+    color: rgb(255, 255, 255);
+}
+.intro {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1000px;
+    z-index: +1;
+    color: black;
+}
+#button {
+    width: 1200px;
+    height: 200px;
+    font-size: 120px;
+    color: blue;
+}
+.downloadbutton {
+    width: 1200px;
+    height: 200px;
+    font-size: 120px;
+    color: blue;
+    background-color: rgb(1, 1, 49);
+    border-top: 20px;
+
+}
