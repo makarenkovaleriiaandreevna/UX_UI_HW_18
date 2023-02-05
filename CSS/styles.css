@@ -15,20 +15,27 @@
 }
 .navigation {
     display: inline-block;
-    width: 100%;
+    width: 3100px;
     padding: 20px;
-    background-color: rgb(250, 250, 249);
-    align-items: center;
-    justify-content: space-around;
-    
+    background-color: #bbbbe9;
+    vertical-align: bottom;
+    justify-content: flex-end;
 }
 li {
     display: inline-block;
 }
-.heroImg {
-    height: 200px;
-    padding: 25px;
-
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1900px 1fr;
+}
+    
+.intro {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    justify-content: center;
+    width: 1100px;
 }
 .downloadbutton {
     width: 1200px;
@@ -38,11 +45,16 @@ li {
     background-color: rgb(1, 1, 49);
     border-top: 20px;
     justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+
 
 }
 .image1 {
     width: 2000px;
     vertical-align: right;
+    justify-content: center;
+    align-items: flex-end;
 
 } 
 .content {
@@ -60,30 +72,29 @@ li {
     font-size: 50px;
 }
 .flexContainer {
-    display:flex;
-    width: 133%;
-    margin: 120px;
-    padding: 300px;
-    align-items: stretch;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: 30px 10px;
+    justify-content: space-around;
+    align-items: center;
+    
     
 }
 .footer1 {
-    background-color: #b9b9c5;
-    padding: 300px;
+    background-color: #bbbbe9;
+    padding: 20px;
     justify-content: end;
-    align-items: flex-end;
+    align-items: stretch;
     height:800 px;
     vertical-align: bottom;
-    align-items: flex-end;
+    justify-content: flex-end;
 
 }
 footer>ul>li {
-    color: rgb(255, 255, 255);
+    color: rgb(60, 52, 146);
 }
 .intro {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1000px;
+    font-size: 100px;
     z-index: +1;
     color: black;
 }
@@ -91,8 +102,17 @@ footer>ul>li {
     width: 1200px;
     height: 200px;
     font-size: 120px;
-    color: blue;
-    background-color: rgb(1, 1, 49);
-    border-top: 20px;
+    color: #020214;
+    background-color: #bbbbe9;
 
 } 
+.grid-container1 {
+    display: grid;
+    grid-template-areas:
+    "project project"
+    "project project";
+    grid-column-gap: 400px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
